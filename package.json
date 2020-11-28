@@ -1,0 +1,11 @@
+{
+  "name": "openpolitica.com",
+  "version": "0.0.0",
+  "description": "Open politica landing page",
+  "main": "index.html",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "author": "Open Política",
+  "license": "ISC"
+}
