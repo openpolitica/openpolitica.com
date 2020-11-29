@@ -1,5 +1,92 @@
 body {
-  color: #4CB4A3;
-  font-size: 4rem;
+  color: #4b8e8e;
   font-family: Mulish, sans-serif;
+}
+
+header {
+  font-size: 1.5rem;
+  height: 6.71875rem;
+}
+
+.welcome {
+  align-items: center;
+  background: gray;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  height: 32.8125rem;
+  justify-content: center;
+  padding: 0 30rem;
+}
+
+.introduction {
+  background: darkgray;
+  height: 21.40625rem;
+}
+
+.introduction h4 {
+  font-size: 1.875rem;
+  font-weight: bolder;
+  margin: 0;
+}
+
+.introduction p {
+  font-size: 1.09375rem;
+}
+
+.bubble {
+  background: #4b8e8e;
+  color: white;
+  display: inline-block;
+  height: 21.40625rem;
+  padding: 3.75rem 1.40625rem;
+  width: 21.25rem;
+}
+
+.what-we-do {
+  position: absolute;
+  right: 0;
+}
+
+.call-to-action {
+  background: #5591b5;
+  color: white;
+  height: 21.40625rem;
+  padding: 3.75rem;
+  position: relative;
+}
+
+.call-to-action h4 {
+  font-size: 1.875rem;
+  font-weight: lighter;
+  margin-bottom: 0 3rem;
+}
+
+.call-to-action p {
+  margin-bottom: 1.125rem;
+  width: 31.25rem;
+}
+
+.call-to-action .want-to-help {
+  background: #4b8e8e;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  color: white;
+  cursor: pointer;
+  padding: 0.78125rem 2.96875rem;
+  position: absolute;
+  right: 12.5rem;
+  text-align: center;
+  top: 19.375rem;
+}
+
+.call-to-action .want-to-help:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background: #272828;
+  color: white;
+  height: 6.5625rem;
 }
