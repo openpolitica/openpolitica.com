@@ -4,24 +4,39 @@ body {
 }
 
 header {
+  display: flex;
   font-size: 1.5rem;
-  height: 6.71875rem;
+  height: 3.75rem;
+  align-items: center;
+}
+
+header .logo {
+  height: 1.5rem;
+  margin-left: 1.5rem;
 }
 
 .welcome {
   align-items: center;
-  background: gray;
+  background: linear-gradient(black, black), url(images/background-1.jpg) no-repeat center center;
+  background-blend-mode: saturation;
+  background-size: cover;
   color: white;
   display: flex;
   flex-wrap: wrap;
   height: 32.8125rem;
   justify-content: center;
-  padding: 0 30rem;
+  padding: 0 20rem;
+}
+
+.welcome h2 {
+  font-size: 2.625rem;
+  text-align: center;
 }
 
 .introduction {
-  background: darkgray;
+  background: #4b8e8e;
   height: 21.40625rem;
+  text-align: center;
 }
 
 .introduction h4 {
@@ -39,17 +54,15 @@ header {
   color: white;
   display: inline-block;
   height: 21.40625rem;
+  margin: 0 6rem;
   padding: 3.75rem 1.40625rem;
+  vertical-align: top;
+  text-align: left;
   width: 21.25rem;
 }
 
-.what-we-do {
-  position: absolute;
-  right: 0;
-}
-
 .call-to-action {
-  background: #5591b5;
+  background: #243747;
   color: white;
   height: 21.40625rem;
   padding: 3.75rem;
@@ -67,7 +80,7 @@ header {
   width: 31.25rem;
 }
 
-.call-to-action .want-to-help {
+.want-to-help {
   background: #4b8e8e;
   border: none;
   border-radius: 20px;
@@ -75,18 +88,26 @@ header {
   color: white;
   cursor: pointer;
   padding: 0.78125rem 2.96875rem;
-  position: absolute;
-  right: 12.5rem;
   text-align: center;
-  top: 19.375rem;
+  text-decoration: none;
 }
 
-.call-to-action .want-to-help:hover {
+.want-to-help:hover {
   text-decoration: underline;
+}
+
+.call-to-action .want-to-help {
+  position: absolute;
+  right: 12.5rem;
+  top: 19.375rem;
 }
 
 footer {
   background: #272828;
   color: white;
   height: 6.5625rem;
+}
+
+footer .logo-icon {
+  height: 100px;
 }
