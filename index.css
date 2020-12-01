@@ -1,3 +1,10 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
   color: #4b8e8e;
   font-family: Mulish, sans-serif;
@@ -15,6 +22,12 @@ header .logo {
   margin-left: 1.5rem;
 }
 
+@media (max-width: 425px) {
+  header .logo {
+    margin: 0 auto;
+  }
+}
+
 .welcome {
   align-items: center;
   background: linear-gradient(black, black), url(images/background-1.jpg) no-repeat center center;
@@ -28,15 +41,36 @@ header .logo {
   padding: 0 20rem;
 }
 
+@media (max-width: 425px) {
+  .welcome {
+    padding: 0;
+    width: 100%;
+  }
+}
+
 .welcome h2 {
   font-size: 2.625rem;
   text-align: center;
+}
+
+@media (max-width: 425px) {
+  .welcome h2 {
+    font-size: 2rem;
+    line-height: 2.25rem;
+    padding: 1rem;
+  }
 }
 
 .introduction {
   background: #4b8e8e;
   height: 21.40625rem;
   text-align: center;
+}
+
+@media (max-width: 425px) {
+  .introduction {
+    height: auto;
+  }
 }
 
 .introduction h4 {
@@ -61,12 +95,29 @@ header .logo {
   width: 21.25rem;
 }
 
+@media (max-width: 425px) {
+  .bubble {
+    height: auto;
+    margin: 0;
+    padding: 4rem 2.5rem;
+    text-align: center;
+  }
+}
+
 .call-to-action {
   background: #04102F;
   color: white;
   height: 21.40625rem;
   padding: 3.75rem;
   position: relative;
+}
+
+@media (max-width: 425px) {
+  .call-to-action {
+    height: auto;
+    padding: 2rem;
+    text-align: center;
+  }
 }
 
 .call-to-action .description {
@@ -76,8 +127,20 @@ header .logo {
   width: 31.25rem;
 }
 
+@media (max-width: 425px) {
+  .call-to-action .description {
+    width: auto;
+  }
+}
+
 .call-to-action .commitment {
   opacity: .5;
+}
+
+@media (max-width: 425px) {
+  .call-to-action .commitment {
+    text-align: left;
+  }
 }
 
 .want-to-help {
@@ -100,6 +163,17 @@ header .logo {
   position: absolute;
   right: 12.5rem;
   top: 16.375rem;
+}
+
+@media (max-width: 425px) {
+  .call-to-action .want-to-help {
+    display: block;
+    margin: 3rem auto 0;
+    position: relative;
+    right: auto;
+    top: auto;
+    width: 17rem;
+  }
 }
 
 footer {
