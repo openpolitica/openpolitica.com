@@ -62,22 +62,22 @@ header .logo {
 }
 
 .call-to-action {
-  background: #243747;
+  background: #04102F;
   color: white;
   height: 21.40625rem;
   padding: 3.75rem;
   position: relative;
 }
 
-.call-to-action h4 {
-  font-size: 1.875rem;
-  font-weight: lighter;
-  margin-bottom: 0 3rem;
-}
-
-.call-to-action p {
+.call-to-action .description {
+  font-size: 1.40rem;
+  line-height: 1.80rem;
   margin-bottom: 1.125rem;
   width: 31.25rem;
+}
+
+.call-to-action .commitment {
+  opacity: .5;
 }
 
 .want-to-help {
@@ -99,7 +99,7 @@ header .logo {
 .call-to-action .want-to-help {
   position: absolute;
   right: 12.5rem;
-  top: 19.375rem;
+  top: 16.375rem;
 }
 
 footer {
