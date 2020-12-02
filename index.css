@@ -162,7 +162,7 @@ header .logo {
 .call-to-action .want-to-help {
   position: absolute;
   right: 12.5rem;
-  top: 16.375rem;
+  top: 9.2rem;
 }
 
 @media (max-width: 425px) {
@@ -179,9 +179,47 @@ header .logo {
 footer {
   background: #272828;
   color: white;
-  height: 6.5625rem;
+  display: flex;
+  height: 16.5rem;
+  justify-content: space-between;
+  padding: 5rem 13rem 0 3.8rem;
 }
 
-footer .logo-icon {
-  height: 100px;
+@media (max-width: 425px) {
+  footer {
+    display: block;
+    height: auto;
+    padding: 2.5rem 0 2.5rem 1.5rem;
+  }
+}
+
+footer p {
+  margin: 0;
+}
+
+footer .signature {
+  margin-top: .5rem;
+  opacity: .6;
+}
+
+@media (max-width: 425px) {
+  footer .social {
+    margin-top: 2rem;
+  }
+}
+
+footer .email {
+  margin-top: .5rem;
+  opacity: .6;
+  text-decoration: underline;
+}
+
+footer .networks {
+  margin-top: 2rem;
+}
+
+footer .networks a {
+  color: white;
+  margin-right: 1rem;
+  text-decoration: none;
 }
