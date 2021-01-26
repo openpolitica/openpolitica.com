@@ -12,7 +12,8 @@
   "devDependencies": {},
   "scripts": {
     "build": "postcss src/main.css --output css/main.css",
-    "watch": "postcss src/main.css --output css/main.css --watch"
+    "watch": "postcss src/main.css --output css/main.css --watch",
+    "prod": "NODE_ENV=production tailwindcss build ./src/styles.css -o ./public/styles.css"
   },
   "keywords": [],
   "author": "Open Politica",
