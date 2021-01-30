@@ -21,19 +21,21 @@
     <!-- welcome message -->
     <div class="mb-0 px-6 pt-10 bg-secondary-lightest">
       <div class="container flex-col md:w-10/12">
-        <h1
-          class="lg:mt-16 font-display w-full lg:w-6/11 text-primary-default text-3xl lg:text-4xl"
-        >
-          Transparentando la información política en el Perú
-        </h1>
+        <div class="my-8 lg:my-24">
+          <h1
+            class="font-display w-full lg:w-5/12 text-primary-default text-3xl lg:text-4xl"
+          >
+            Transparentando la información política en el Perú
+          </h1>
 
-        <p
-          class="py-4 lg:pb-12 font-body text-secondary-default max-w-prose text-s"
-        >
-          <b>Open Política</b> es un colectivo que busca fortalecer la
-          participación de la ciudadanía peruana en la toma de decisiones
-          políticas.
-        </p>
+          <p
+            class="py-4 lg:pb-12 font-body text-secondary-default max-w-prose text-s"
+          >
+            <b>Open Política</b> es un colectivo que busca fortalecer la
+            participación de la ciudadanía peruana en la toma de decisiones
+            políticas.
+          </p>
+        </div>
 
         <img
           class="relative top-8 h-72 w-full lg:h-3/4 object-cover object-left rounded shadow-2xl"
@@ -45,22 +47,26 @@
 
     <!-- projects -->
 
-    <div class="container mt-24 lg:mt-36 px-6 lg:px-0 lg:w-10/12">
+    <div
+      class="container mt-24 lg:mt-36 px-6 lg:px-0 md:w-10/12 lg:w-10/12 flex flex-col"
+    >
       <h2
-        class="w-full lg:max-w-lg pb-8 lg:mb-24 font-display text-2xl lg:text-3xl text-secondary-darkest"
+        class="w-full md:max-w-lg lg:max-w-lg pb-8 lg:mb-24 font-display text-2xl lg:text-3xl text-secondary-darkest"
       >
         Creamos soluciones digitales para facilitar la participación ciudadana.
       </h2>
 
       <!-- project votu-->
-      <div class="lg:flex lg:flex-row-reverse justify-between my-10 lg:mb-24">
+      <div
+        class="sm:w-full md:flex md:flex-row-reverse lg:flex-row-reverse justify-between my-10 lg:mb-24"
+      >
         <img
-          class="sm:w-full md:w-5/12 h-auto rounded shadow-2xl"
+          class="sm:w-full md:w-5/12 lg:w-5/12 md:h-3/4 rounded shadow-2xl"
           src="images/projects/votu.png"
           alt="Foto de Votu"
         />
 
-        <div class="sm-full md:w-5/12">
+        <div class="sm:w-full md:w-5/12">
           <span
             class="inline-block mt-8 px-4 py-2 bg-purple-200 text-purple-100 rounded-full font-bold uppercase text-xs"
             >MVP</span
@@ -91,9 +97,9 @@
       </div>
 
       <!-- project open api-->
-      <div class="lg:flex justify-between my-10 lg:mb-24">
+      <div class="sm:w-full md:flex justify-between my-10 lg:mb-24">
         <img
-          class="sm:w-full md:w-5/12 h-auto rounded shadow-2xl"
+          class="sm:w-full md:w-5/12 md:h-3/4 rounded shadow-2xl"
           src="images/projects/open_api.png"
           alt="Foto de Open API"
         />
@@ -136,7 +142,7 @@
     <!-- team -->
 
     <div
-      class="container flex flex-col lg:flex-row justify-between w-full lg:w-10/12 mt-24 lg:mt-36 px-6 lg:px-0"
+      class="container flex flex-col lg:flex-row justify-between w-full lg:w-10/12 my-24 lg:my-36 px-6 lg:px-0"
     >
       <div class="w-full lg:w-5/12">
         <h2 class="font-display text-4xl text-secondary-darkest">El equipo</h2>
@@ -274,25 +280,36 @@
     <!-- footer -->
 
     <footer
-      class="bg-secondary-darkest mt-12 px-6 py-8 font-display text-primary-lightest"
+      class="bg-secondary-darkest mt-12 px-6 py-16 font-display text-primary-lightest"
     >
-      <p class="w-full md:w-11/12">
-        Copyright © 2020 Open Política. Todos los derechos reservados.
-      </p>
-      <p class="opacity-60">Hecho en Lima, Perú</p>
-
-      <p class="mt-6">Escríbenos</p>
-      <a class="opacity-60 underline" href="mailto:odpolitica@gmail.com"
-        >odpolitica@gmail.com</a
+      <div
+        class="container w-full lg:w-10/12 flex flex-col lg:flex-row justify-between"
       >
+        <div class="w-full lg:w-10/12">
+          <p class="">
+            Copyright © 2020 Open Política. Todos los derechos reservados.
+          </p>
+          <p class="opacity-60">Hecho en Lima, Perú</p>
+        </div>
 
-      <div class="mt-6 flex place-items-start">
-        <a class="pr-2" href="https://twitter.com/openpolitica"
-          ><img class="w-8" src="images/icons/twitter.svg" alt="Twitter"
-        /></a>
-        <a href="https://www.instagram.com/open.politica/"
-          ><img class="w-8" src="images/icons/instagram.svg" alt="Instagram"
-        /></a>
+        <div class="mt-4 lg:mt-0">
+          <p>Escríbenos</p>
+          <a class="opacity-60 underline" href="mailto:odpolitica@gmail.com"
+            >odpolitica@gmail.com</a
+          >
+
+          <div class="mt-6 flex place-items-start">
+            <a class="pr-2" href="https://twitter.com/openpolitica"
+              ><img class="w-8" src="images/icons/twitter.svg" alt="Twitter"
+            /></a>
+            <a href="https://www.instagram.com/open.politica/"
+              ><img
+                class="w-8"
+                src="images/icons/instagram.svg"
+                alt="Instagram"
+            /></a>
+          </div>
+        </div>
       </div>
     </footer>
   </body>
