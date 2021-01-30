@@ -1,188 +1,299 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Open Política</title>
     <link rel="stylesheet" href="main.css" />
-</head>
+  </head>
 
-
-<body class="bg-white">
+  <body class="bg-white">
     <!-- nav bar -->
     <nav class="container p-4 flex">
-        <img class="flex-grow h-6" src="images/logo.svg" height="24px" alt="Logo Open Política">
+      <img
+        class="flex-grow h-6"
+        src="images/logo.svg"
+        height="24px"
+        alt="Logo Open Política"
+      />
     </nav>
 
     <!-- welcome message -->
     <div class="mb-0 px-6 pt-10 bg-secondary-lightest">
-        <div class="container flex-col md:w-10/12">
-            <h1 class="lg:mt-16 font-display w-full lg:w-6/11 text-primary-default text-3xl lg:text-4xl">
-                Transparentando la información política en el Perú
-            </h1>
+      <div class="container flex-col md:w-10/12">
+        <h1
+          class="lg:mt-16 font-display w-full lg:w-6/11 text-primary-default text-3xl lg:text-4xl"
+        >
+          Transparentando la información política en el Perú
+        </h1>
 
-            <p class="py-4 lg:pb-12 font-body text-secondary-default max-w-prose text-s">
-                <b>Open Política</b> es un colectivo que busca fortalecer la participación de la ciudadanía peruana en
-                la toma de decisiones políticas.
-            </p>
+        <p
+          class="py-4 lg:pb-12 font-body text-secondary-default max-w-prose text-s"
+        >
+          <b>Open Política</b> es un colectivo que busca fortalecer la
+          participación de la ciudadanía peruana en la toma de decisiones
+          políticas.
+        </p>
 
-            <img class="relative top-8 h-72 w-full lg:h-3/4 object-cover object-left rounded shadow-2xl"
-                src="images/banner_home.png" alt="Foto de las marchas del 14 de noviembre del 2020.">
-        </div>
+        <img
+          class="relative top-8 h-72 w-full lg:h-3/4 object-cover object-left rounded shadow-2xl"
+          src="images/banner_home.png"
+          alt="Foto de las marchas del 14 de noviembre del 2020."
+        />
+      </div>
     </div>
 
     <!-- projects -->
 
-    <div class="container mt-24 px-6 lg:px-0 lg:w-10/12">
-        <h2 class="w-full pb-8 font-display text-2xl lg:text-3xl text-secondary-darkest">
-            Creamos soluciones digitales para facilitar la participación ciudadana.
-            </h1>
+    <div class="container mt-24 lg:mt-36 px-6 lg:px-0 lg:w-10/12">
+      <h2
+        class="w-full lg:max-w-lg pb-8 lg:mb-24 font-display text-2xl lg:text-3xl text-secondary-darkest"
+      >
+        Creamos soluciones digitales para facilitar la participación ciudadana.
+      </h2>
 
-            <!-- project votu-->
-            <div class="lg:flex lg:flex-row-reverse justify-between my-10">
+      <!-- project votu-->
+      <div class="lg:flex lg:flex-row-reverse justify-between my-10 lg:mb-24">
+        <img
+          class="sm:w-full md:w-5/12 h-auto rounded shadow-2xl"
+          src="images/projects/votu.png"
+          alt="Foto de Votu"
+        />
 
-                <img class="sm:w-full md:w-5/12 h-auto rounded shadow-2xl" src="images/projects/votu.png" alt="Foto de Votu">
-                
-                <div class="sm-full md:w-5/12">
-                    <span
-                        class="inline-block mt-8 px-4 py-2 bg-purple-200 text-purple-100 rounded-full font-bold uppercase text-xs">MVP</span>
-    
-                    <h3 class="pt-4 font-display font-bold text-2xl text-secondary-dark">VOTU</h3>
-                    <p class="pt-1 font-display font-bold uppercase text-primary-default text-sm">www.votu.pe</p>
-    
-                    <p class="py-4 font-body text-secondary-default">
-                        Una aplicación web diseñada para que los ciudadanos puedan <b>elegir a sus representantes según sus
-                            preferencias</b> y los filtros que ellos consideren relevantes.
-                    </p>
-    
-                    <a class="inline-block my-4 px-6 py-4 font-body font-bold border-secondary-darkest border-solid border-2 text-secondary-darkest"
-                        href="https://www.votu.pe" target="_blank">Visitar www.votu.pe</a>
-                </div>
-            </div>
+        <div class="sm-full md:w-5/12">
+          <span
+            class="inline-block mt-8 px-4 py-2 bg-purple-200 text-purple-100 rounded-full font-bold uppercase text-xs"
+            >MVP</span
+          >
 
-            <!-- project open api-->
-            <div class="lg:flex justify-between my-10">
+          <h3 class="pt-4 font-display font-bold text-2xl text-secondary-dark">
+            VOTU
+          </h3>
+          <p
+            class="pt-1 font-display font-bold uppercase text-primary-default text-sm"
+          >
+            www.votu.pe
+          </p>
 
-                <img class="sm:w-full md:w-5/12 h-auto rounded shadow-2xl" src="images/projects/open_api.png" alt="Foto de Open API">
-                
-                <div class="sm:w-full md:w-5/12">
-                    <span
-                    class="inline-block mt-8 px-4 py-2 bg-purple-200 text-purple-100 rounded-full font-bold uppercase text-xs">Beta
-                    Abierta</span>
+          <p class="py-4 font-body text-secondary-default">
+            Una aplicación web diseñada para que los ciudadanos puedan
+            <b>elegir a sus representantes según sus preferencias</b> y los
+            filtros que ellos consideren relevantes.
+          </p>
 
-                    <h3 class="pt-4 font-display font-bold text-2xl text-secondary-dark">Open API</h3>
-                    <p class="pt-1 font-display font-bold uppercase text-primary-default text-sm">www.api.openpolitica.com
-                    </p>
+          <a
+            class="inline-block my-4 px-6 py-4 font-body font-bold border-secondary-darkest border-solid border-2 text-secondary-darkest"
+            href="https://www.votu.pe"
+            target="_blank"
+            >Visitar www.votu.pe</a
+          >
+        </div>
+      </div>
 
-                    <p class="py-4 font-body text-secondary-default">
-                        Consultamos las <b>bases de datos públicas del Estado</b> y recopilamos información sobre los
-                        <b>funcionarios y
-                            candidatos a puestos públicos.</b>
+      <!-- project open api-->
+      <div class="lg:flex justify-between my-10 lg:mb-24">
+        <img
+          class="sm:w-full md:w-5/12 h-auto rounded shadow-2xl"
+          src="images/projects/open_api.png"
+          alt="Foto de Open API"
+        />
 
-                        Buscamos que todo ciudadano pueda tener acceso a <b>información consolidada</b> para tomar
-                        decisiones o
-                        elaborar herramientas en favor de la población.
-                    </p>
+        <div class="sm:w-full md:w-5/12">
+          <span
+            class="inline-block mt-8 px-4 py-2 bg-purple-200 text-purple-100 rounded-full font-bold uppercase text-xs"
+            >Beta Abierta</span
+          >
 
-                    <a class="inline-block my-4 px-6 py-4 font-body font-bold border-secondary-darkest border-solid border-2 text-secondary-darkest"
-                        href="https://www.api.openpolitica.com" target="_blank">Usar herramienta</a>
-                </div>
-            </div>
+          <h3 class="pt-4 font-display font-bold text-2xl text-secondary-dark">
+            Open API
+          </h3>
+          <p
+            class="pt-1 font-display font-bold uppercase text-primary-default text-sm"
+          >
+            www.api.openpolitica.com
+          </p>
+
+          <p class="py-4 font-body text-secondary-default">
+            Consultamos las <b>bases de datos públicas del Estado</b> y
+            recopilamos información sobre los
+            <b>funcionarios y candidatos a puestos públicos.</b>
+
+            Buscamos que todo ciudadano pueda tener acceso a
+            <b>información consolidada</b> para tomar decisiones o elaborar
+            herramientas en favor de la población.
+          </p>
+
+          <a
+            class="inline-block my-4 px-6 py-4 font-body font-bold border-secondary-darkest border-solid border-2 text-secondary-darkest"
+            href="https://www.api.openpolitica.com"
+            target="_blank"
+            >Usar herramienta</a
+          >
+        </div>
+      </div>
     </div>
 
     <!-- team -->
 
-    <div class="mt-12 px-6">
-        <h2 class="font-display text-4xl text-secondary-darkest">
-            El equipo
-        </h2>
+    <div
+      class="container flex flex-col lg:flex-row justify-between w-full lg:w-10/12 mt-24 lg:mt-36 px-6 lg:px-0"
+    >
+      <div class="w-full lg:w-5/12">
+        <h2 class="font-display text-4xl text-secondary-darkest">El equipo</h2>
 
         <p class="py-4 font-body text-secondary-default">
-            11 ciudadanos repartidos por el mundo. Todos bajo la dirección de Retaco.
+          11 ciudadanos repartidos por el mundo. Todos bajo la dirección de
+          Retaco.
         </p>
+      </div>
 
-        <!-- team members -->
-        <div class="flex flex-wrap justify-around mt-2">
-            <div class="text-center py-4">
-                <img class="inline-block" src="images/team/retaco.png" alt="Retaco The Cat - CEO">
-                <p class="font-display pt-2 text-secondary-dark">Retaco The Cat</p>
-                <p class="font-display text-secondary-default">CEO</p>
-            </div>
-            <div class="text-center py-4">
-                <img class="inline-block" src="images/team/alessandra_rojas.png" alt="Alessandra Rojas - Product Manager">
-                <p class="font-display pt-2 text-secondary-dark">Alessandra Rojas</p>
-                <p class="font-display text-secondary-default">Product Manager</p>
-            </div>
-            <div class="text-center py-4">
-                <img class="inline-block" src="images/team/fernando_ruiz.png" alt="Fernando Ruiz - Contenido">
-                <p class="font-display pt-2 text-secondary-dark">Fernando Ruiz</p>
-                <p class="font-display text-secondary-default">Contenido</p>
-            </div>
-            <div class="text-center py-4">
-                <img class="inline-block" src="images/team/lucia_valdivieso.png" alt="Lucía Valdivieso - Contenido">
-                <p class="font-display pt-2 text-secondary-dark">Lucía Valdivieso</p>
-                <p class="font-display text-secondary-default">Contenido</p>
-            </div>
-            <div class="text-center py-4">
-                <img class="inline-block" src="images/team/jorge_quilcate.png" alt="Jorge Quilcate - Data">
-                <p class="font-display pt-2 text-secondary-dark">Jorge Quilcate</p>
-                <p class="font-display text-secondary-default">Data</p>
-            </div>
-            <div class="text-center py-4">
-                <img class="inline-block" src="images/team/juan_lajara.png" alt="Juan La Jara - Frontend Dev">
-                <p class="font-display pt-2 text-secondary-dark">Juan La Jara</p>
-                <p class="font-display text-secondary-default">Frontend Dev</p>
-            </div>
-            <div class="text-center py-4">
-                <img class="inline-block" src="images/team/valeria_otarola.png" alt="Valeria Otarola - Comunicaciones">
-                <p class="font-display pt-2 text-secondary-dark">Valeria Otarola</p>
-                <p class="font-display text-secondary-default">Comunicaciones</p>
-            </div>
-            <div class="text-center py-4">
-                <img class="inline-block" src="images/team/arturo_viayrada.png" alt="Arturo Via y Rada - Product Designer">
-                <p class="font-display pt-2 text-secondary-dark">Arturo Via y Rada</p>
-                <p class="font-display text-secondary-default">Product Designer</p>
-            </div>
-            <div class="text-center py-4">
-                <img class="inline-block" src="images/team/rodrigo_torres.png" alt="Rodrigo Torres - Analytics">
-                <p class="font-display pt-2 text-secondary-dark">Rodrigo Torres</p>
-                <p class="font-display text-secondary-default">Analytics</p>
-            </div>
-            <div class="text-center py-4">
-                <img class="inline-block" src="images/team/almendra_maravi.png" alt="Alemndra Maraví - Frontend Dev">
-                <p class="font-display pt-2 text-secondary-dark">Almendra Maraví</p>
-                <p class="font-display text-secondary-default">Frontend Dev</p>
-            </div>
-            <div class="text-center py-4">
-                <img class="inline-block" src="images/team/diego_marquina.png" alt="Diego Marquina - Backend Dev">
-                <p class="font-display pt-2 text-secondary-dark">Diego Marquina</p>
-                <p class="font-display text-secondary-default">Backend Dev</p>
-            </div>
-            <div class="text-center py-4">
-                <img class="inline-block" src="images/team/gianpietro_lavado.png" alt="Gianpietro Lavado - Backend Dev">
-                <p class="font-display pt-2 text-secondary-dark">Gianpietro Lavado</p>
-                <p class="font-display text-secondary-default">Backend Dev</p>
-            </div>
+      <!-- team members -->
+      <div class="flex flex-wrap justify-start mt-2 w-full lg:w-6/12">
+        <div class="w-2/4 lg:w-1/4 text-center mt-4 lg:mt-0 px-2 pb-8">
+          <img
+            class="inline-block"
+            src="images/team/retaco.png"
+            alt="Retaco The Cat - CEO"
+          />
+          <p class="font-display pt-2 text-secondary-dark">Retaco The Cat</p>
+          <p class="font-display text-secondary-default">CEO</p>
         </div>
+
+        <div class="w-2/4 lg:w-1/4 text-center mt-4 lg:mt-0 px-2 pb-8">
+          <img
+            class="inline-block"
+            src="images/team/alessandra_rojas.png"
+            alt="Alessandra Rojas - Product Manager"
+          />
+          <p class="font-display pt-2 text-secondary-dark">Alessandra Rojas</p>
+          <p class="font-display text-secondary-default">Product Manager</p>
+        </div>
+
+        <div class="w-2/4 lg:w-1/4 text-center mt-4 lg:mt-0 px-2 pb-8">
+          <img
+            class="inline-block"
+            src="images/team/fernando_ruiz.png"
+            alt="Fernando Ruiz - Contenido"
+          />
+          <p class="font-display pt-2 text-secondary-dark">Fernando Ruiz</p>
+          <p class="font-display text-secondary-default">Contenido</p>
+        </div>
+
+        <div class="w-2/4 lg:w-1/4 text-center mt-4 lg:mt-0 px-2 pb-8">
+          <img
+            class="inline-block"
+            src="images/team/lucia_valdivieso.png"
+            alt="Lucía Valdivieso - Contenido"
+          />
+          <p class="font-display pt-2 text-secondary-dark">Lucía Valdivieso</p>
+          <p class="font-display text-secondary-default">Contenido</p>
+        </div>
+
+        <div class="w-2/4 lg:w-1/4 text-center mt-4 lg:mt-0 px-2 pb-8">
+          <img
+            class="inline-block"
+            src="images/team/jorge_quilcate.png"
+            alt="Jorge Quilcate - Data"
+          />
+          <p class="font-display pt-2 text-secondary-dark">Jorge Quilcate</p>
+          <p class="font-display text-secondary-default">Data</p>
+        </div>
+
+        <div class="w-2/4 lg:w-1/4 text-center mt-4 lg:mt-0 px-2 pb-8">
+          <img
+            class="inline-block"
+            src="images/team/juan_lajara.png"
+            alt="Juan La Jara - Frontend Dev"
+          />
+          <p class="font-display pt-2 text-secondary-dark">Juan La Jara</p>
+          <p class="font-display text-secondary-default">Frontend Dev</p>
+        </div>
+
+        <div class="w-2/4 lg:w-1/4 text-center mt-4 lg:mt-0 px-2 pb-8">
+          <img
+            class="inline-block"
+            src="images/team/valeria_otarola.png"
+            alt="Valeria Otarola - Comunicaciones"
+          />
+          <p class="font-display pt-2 text-secondary-dark">Valeria Otarola</p>
+          <p class="font-display text-secondary-default">Comunicaciones</p>
+        </div>
+
+        <div class="w-2/4 lg:w-1/4 text-center mt-4 lg:mt-0 px-2 pb-8">
+          <img
+            class="inline-block"
+            src="images/team/arturo_viayrada.png"
+            alt="Arturo Via y Rada - Product Designer"
+          />
+          <p class="font-display pt-2 text-secondary-dark">Arturo Via y Rada</p>
+          <p class="font-display text-secondary-default">Product Designer</p>
+        </div>
+
+        <div class="w-2/4 lg:w-1/4 text-center mt-4 lg:mt-0 px-2 pb-8">
+          <img
+            class="inline-block"
+            src="images/team/rodrigo_torres.png"
+            alt="Rodrigo Torres - Analytics"
+          />
+          <p class="font-display pt-2 text-secondary-dark">Rodrigo Torres</p>
+          <p class="font-display text-secondary-default">Analytics</p>
+        </div>
+
+        <div class="w-2/4 lg:w-1/4 text-center mt-4 lg:mt-0 px-2 pb-8">
+          <img
+            class="inline-block"
+            src="images/team/almendra_maravi.png"
+            alt="Alemndra Maraví - Frontend Dev"
+          />
+          <p class="font-display pt-2 text-secondary-dark">Almendra Maraví</p>
+          <p class="font-display text-secondary-default">Frontend Dev</p>
+        </div>
+
+        <div class="w-2/4 lg:w-1/4 text-center mt-4 lg:mt-0 px-2 pb-8">
+          <img
+            class="inline-block"
+            src="images/team/diego_marquina.png"
+            alt="Diego Marquina - Backend Dev"
+          />
+          <p class="font-display pt-2 text-secondary-dark">Diego Marquina</p>
+          <p class="font-display text-secondary-default">Backend Dev</p>
+        </div>
+
+        <div class="w-2/4 lg:w-1/4 text-center mt-4 lg:mt-0 px-2 pb-8">
+          <img
+            class="inline-block"
+            src="images/team/gianpietro_lavado.png"
+            alt="Gianpietro Lavado - Backend Dev"
+          />
+          <p class="font-display pt-2 text-secondary-dark">Gianpietro Lavado</p>
+          <p class="font-display text-secondary-default">Backend Dev</p>
+        </div>
+      </div>
     </div>
 
     <!-- footer -->
 
-    <footer class="bg-secondary-darkest mt-12 px-6 py-8 font-display text-primary-lightest">
+    <footer
+      class="bg-secondary-darkest mt-12 px-6 py-8 font-display text-primary-lightest"
+    >
+      <p class="w-full md:w-11/12">
+        Copyright © 2020 Open Política. Todos los derechos reservados.
+      </p>
+      <p class="opacity-60">Hecho en Lima, Perú</p>
 
-        <p class="w-full md:w-11/12">Copyright © 2020 Open Política. Todos los derechos reservados.</p>
-        <p class="opacity-60">Hecho en Lima, Perú</p>
+      <p class="mt-6">Escríbenos</p>
+      <a class="opacity-60 underline" href="mailto:odpolitica@gmail.com"
+        >odpolitica@gmail.com</a
+      >
 
-        <p class="mt-6">Escríbenos</p>
-        <a class="opacity-60 underline" href="mailto:odpolitica@gmail.com">odpolitica@gmail.com</a>
-
-        <div class="mt-6 flex place-items-start">
-            <a class="pr-2" href="https://twitter.com/openpolitica"><img class="w-8" src="images/icons/twitter.svg" alt="Twitter"></a>
-            <a href="https://www.instagram.com/open.politica/"><img class="w-8" src="images/icons/instagram.svg" alt="Instagram"></a>
-        </div>
-
+      <div class="mt-6 flex place-items-start">
+        <a class="pr-2" href="https://twitter.com/openpolitica"
+          ><img class="w-8" src="images/icons/twitter.svg" alt="Twitter"
+        /></a>
+        <a href="https://www.instagram.com/open.politica/"
+          ><img class="w-8" src="images/icons/instagram.svg" alt="Instagram"
+        /></a>
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>
