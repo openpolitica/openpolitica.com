@@ -4,6 +4,29 @@
 @tailwind components;
 @tailwind utilities;
 
+/* components */
+
 .team-member {
-  @apply w-2/4 lg:w-1/4 text-center mt-4 lg:mt-0 px-2 pb-8;
+  @apply w-2/4
+    lg:w-1/4
+    text-center
+    mt-4
+    lg:mt-0
+    px-2
+    pb-8;
+}
+
+.btn-primary {
+  @apply inline-block
+    my-4
+    px-6
+    py-4
+    font-body
+    font-bold
+    border-secondary-darkest
+    border-solid border-2
+    text-secondary-darkest
+    hover:border-primary-default
+    hover:text-primary-default
+    duration-200;
 }
